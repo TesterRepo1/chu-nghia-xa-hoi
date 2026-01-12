@@ -15,7 +15,7 @@ const characteristicsData = [
     content: "Tồn tại nền kinh tế nhiều thành phần, trong đó có các thành phần đối lập nhau.",
     highlight: "Vừa hợp tác vừa đấu tranh",
     detail: "Ví dụ:  Tại Nga thời Lênin có 5 thành phần (Gia trưởng, Hàng hóa nhỏ, Tư bản tư nhân, Tư bản nhà nước, Xã hội chủ nghĩa).",
-    image: "https://images.unsplash. com/photo-1460925895917-afdab827c52f?w=600&q=80"
+    image: "https://media.vov.vn/sites/default/files/styles/large/public/2020-07/kinh_te_vn_0.jpg"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const characteristicsData = [
     content: "Thiết lập và tăng cường chuyên chính vô sản.",
     highlight: "Trấn áp và Xây dựng",
     detail: "Giai cấp công nhân nắm và sử dụng quyền lực nhà nước để trấn áp giai cấp tư sản và xây dựng xã hội mới.",
-    image: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&q=80"
+    image: "https://xdcs.cdnchinhphu.vn/446259493575335936/2023/10/8/tw-1696743789935116427069.jpg"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const characteristicsData = [
     content: "Tồn tại nhiều tư tưởng khác nhau, chủ yếu là cuộc đấu tranh giữa tư tưởng vô sản và tư tưởng tư sản.",
     highlight: "Xây dựng văn hóa mới",
     detail: "Từng bước xây dựng nền văn hóa XHCN, tiếp thu giá trị văn hóa dân tộc và tinh hoa nhân loại.",
-    image: "https://images.unsplash. com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+    image: "https://tse4.mm.bing.net/th/id/OIP.G_DW8rLD3THr0qsGJgjuCgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const characteristicsData = [
     content: "Tồn tại nhiều giai cấp, tầng lớp xã hội.  Còn sự khác biệt giữa thành thị - nông thôn, lao động trí óc - chân tay.",
     highlight: "Liên minh công - nông",
     detail: "Các giai cấp, tầng lớp xã hội vừa hợp tác vừa đấu tranh với nhau trong khuôn khổ liên minh công - nông.",
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80"
+    image: "https://api.toploigiai.vn/storage/tmp/1675670291750_zUOVc.jpg"
   },
 ];
 

@@ -50,7 +50,7 @@ export const StagesSection = () => (
           >
             <div className="bg-gray-200 p-8 rounded-2xl border-2 border-gray-300 relative">
               <img 
-                src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80" 
+                src="https://media.cnn.com/api/v1/images/stellar/prod/150703134038-09-early-u-s-history-trumbull-signing.jpg?q=x_5,y_0,h_2938,w_5221,c_crop/w_800" 
                 alt="Capitalism" 
                 className="w-full h-32 object-cover rounded-xl mb-4 opacity-60"
               />
@@ -73,7 +73,7 @@ export const StagesSection = () => (
           >
             <div className="bg-gradient-to-br from-red-600 to-red-800 p-8 rounded-2xl shadow-2xl relative transform lg:scale-110 border-4 border-yellow-400">
               <img 
-                src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=400&q=80" 
+                src="https://sidoni.net/upload/baiquet/hinhnd/chu-nghia-xa-hoi-la-gi-lich-su-cua-chu-nghia-xa-hoi-co-nhung-truong-phai-va-quoc-gia-nao2.jpg" 
                 alt="Socialism" 
                 className="w-full h-32 object-cover rounded-xl mb-4 opacity-70"
               />
@@ -99,7 +99,7 @@ export const StagesSection = () => (
             <ArrowRight className="hidden lg:block w-8 h-8 text-yellow-500 mx-auto mb-4 rotate-180" />
             <div className="bg-gradient-to-br from-yellow-50 to-amber-100 p-8 rounded-2xl border-2 border-yellow-400 relative">
               <img 
-                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" 
+                src="https://i.ytimg.com/vi/F9lqseTfjJo/maxresdefault.jpg" 
                 alt="Communism" 
                 className="w-full h-32 object-cover rounded-xl mb-4 opacity-70"
               />

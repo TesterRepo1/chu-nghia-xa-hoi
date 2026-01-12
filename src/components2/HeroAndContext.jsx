@@ -1,5 +1,6 @@
+import React from 'react';
 import { motion } from "framer-motion";
-import { BookOpen, Users, Lightbulb, GraduationCap, ChevronDown, Target } from "lucide-react";
+import { BookOpen, Users, Lightbulb, GraduationCap, ChevronDown } from "lucide-react";
 
 // ==================== MỞ ĐẦU (HERO) ====================
 export const HeroSection = () => (
@@ -7,7 +8,8 @@ export const HeroSection = () => (
     {/* IMAGE BACKGROUND */}
     <div className="absolute inset-0 z-0">
       <img
-        src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620? w=1920&q=80"
+        // Bạn có thể thay đường dẫn này bằng ảnh image_e57c45.jpg của bạn nếu muốn
+        src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1920&q=80"
         alt="Revolution background"
         className="absolute inset-0 w-full h-full object-cover opacity-40 sepia-[0.3]"
       />
@@ -20,7 +22,7 @@ export const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <div className="inline-flex items-center gap-2 border border-yellow-500/50 bg-red-950/50 backdrop-blur-sm px-4 py-1. 5 rounded-full mb-6">
+        <div className="inline-flex items-center gap-2 border border-yellow-500/50 bg-red-950/50 backdrop-blur-sm px-4 py-1.5 rounded-full mb-6">
           <span className="w-2 h-2 rounded-full bg-yellow-500 animate-pulse" />
           <span className="text-yellow-200 text-sm font-medium tracking-wider uppercase">Học thuyết Mác – Lênin</span>
         </div>
@@ -35,11 +37,11 @@ export const HeroSection = () => (
 
         {/* Nội dung bài trình bày */}
         <div className="flex flex-wrap justify-center gap-4 mt-8">
-          <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-xl">
+          <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-xl cursor-pointer hover:bg-white/20 transition-colors">
             <span className="text-yellow-400 font-bold">Phần I: </span>
             <span className="text-white ml-2">Chủ nghĩa xã hội</span>
           </div>
-          <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-xl">
+          <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-xl cursor-pointer hover:bg-white/20 transition-colors">
             <span className="text-yellow-400 font-bold">Phần II:</span>
             <span className="text-white ml-2">Thời kỳ quá độ</span>
           </div>
@@ -105,7 +107,7 @@ export const ConceptSection = () => (
         </p>
       </motion.div>
 
-      <div className="grid md: grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {[
           { 
             icon: Users, 
@@ -113,28 +115,28 @@ export const ConceptSection = () => (
             title: "Phong trào thực tiễn", 
             desc: "Của quần chúng lao động đấu tranh chống áp bức, bóc lột.",
             color: "from-blue-500 to-blue-700",
-            image: "https://images.unsplash. com/photo-1591848478625-de43268e6fb8?w=400&q=80"
+            image: "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=400&q=80"
           },
           { 
-            icon:  Lightbulb, 
-            number:  "02",
+            icon: Lightbulb, 
+            number: "02",
             title: "Trào lưu tư tưởng", 
             desc: "Phản ánh khát vọng về một xã hội công bằng, tiến bộ.",
             color: "from-amber-500 to-orange-600",
-            image:  "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=400&q=80"
+            image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=400&q=80"
           },
           { 
-            icon:  GraduationCap, 
+            icon: GraduationCap, 
             number: "03",
             title: "Khoa học", 
-            desc: "Chủ nghĩa xã hội khoa học do C.  Mác và Ph. Ăngghen sáng lập.",
+            desc: "Chủ nghĩa xã hội khoa học do C. Mác và Ph. Ăngghen sáng lập.",
             color: "from-green-500 to-emerald-700",
-            image:  "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&q=80"
+            image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&q=80"
           },
           { 
-            icon:  BookOpen, 
+            icon: BookOpen, 
             number: "04",
-            title:  "Chế độ xã hội", 
+            title: "Chế độ xã hội", 
             desc: "Giai đoạn đầu của hình thái kinh tế – xã hội cộng sản chủ nghĩa.",
             color: "from-red-500 to-red-700",
             image: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=400&q=80"
@@ -149,10 +151,10 @@ export const ConceptSection = () => (
             className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100"
           >
             {/* Image */}
-            <div className="h-32 overflow-hidden">
+            <div className="h-32 overflow-hidden relative">
               <img 
                 src={item.image} 
-                alt={item. title}
+                alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className={`absolute inset-0 h-32 bg-gradient-to-br ${item.color} opacity-80`} />
@@ -172,3 +174,14 @@ export const ConceptSection = () => (
     </div>
   </section>
 );
+
+// ==================== MAIN COMPONENT ====================
+export default function Presentation() {
+  return (
+    <div className="font-sans">
+      <HeroSection />
+      <PartOneHeader />
+      <ConceptSection />
+    </div>
+  );
+}

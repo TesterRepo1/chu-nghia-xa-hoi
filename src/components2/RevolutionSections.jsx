@@ -57,7 +57,7 @@ export const TransitionViewsSection = () => (
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="h-48 relative">
               <img 
-                src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&q=80" 
+                src="https://tse2.mm.bing.net/th/id/OIP.Zk-65ETCc1l7PB051HbHPwHaEv?rs=1&pid=ImgDetMain&o=7&rm=3" 
                 alt="Karl Marx" 
                 className="w-full h-full object-cover"
               />
@@ -87,7 +87,7 @@ export const TransitionViewsSection = () => (
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="h-48 relative">
               <img 
-                src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=600&q=80" 
+                src="https://th.bing.com/th/id/R.63b3482749cce94acb23050e879804f6?rik=Qy4AMzzGz3i4gg&pid=ImgRaw&r=0" 
                 alt="Lenin" 
                 className="w-full h-full object-cover"
               />
@@ -156,7 +156,7 @@ export const TransitionTypesSection = () => (
             </div>
             
             <img 
-              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80" 
+              src="https://cdn.slidesharecdn.com/ss_thumbnails/ch-ngha-x-hi-v-thi-k-qu-ln-ch-ngha-x-hi-221222164611-f92d0244-thumbnail.jpg?width=640&height=640&fit=bounds" 
               alt="Process" 
               className="w-full h-40 object-cover rounded-xl mb-6"
             />
