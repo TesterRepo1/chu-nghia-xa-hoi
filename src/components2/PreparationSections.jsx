@@ -267,42 +267,42 @@ export const CharacteristicsSection = () => (
           { 
             icon: Heart, 
             title: "Mục tiêu Nhân văn", 
-            desc: "Giải phóng giai cấp, xã hội, con người.  Tạo điều kiện phát triển toàn diện.",
+            desc: "Chủ nghĩa xã hội giải phóng giai cấp, giải phóng dân tộc, giải phóng xã hội, giải phóng con người, tạo điều kiện để con người phát triển toàn diện.",
             color: "from-pink-500 to-red-500",
             image:  "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&q=80"
           },
           { 
             icon:  Database, 
             title: "Kinh tế", 
-            desc:  "Phát triển cao dựa trên LLSX hiện đại & chế độ công hữu về TLSX.",
+            desc:  "Chủ nghĩa xã hội có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu.",
             color: "from-blue-500 to-cyan-500",
             image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80"
           },
           { 
             icon:  Layers, 
             title: "Chính trị", 
-            desc: "Do nhân dân lao động làm chủ.",
+            desc: "Chủ nghĩa xã hội là chế độ xã hội do nhân dân lao động làm chủ.",
             color: "from-purple-500 to-indigo-500",
             image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&q=80"
           },
           { 
             icon: Shield, 
             title: "Nhà nước", 
-            desc: "Kiểu mới, mang bản chất GCCN, đại diện cho lợi ích nhân dân.",
+            desc: "Chủ nghĩa xã hội có nhà nước kiểu mới mang bản chất giai cấp công nhân, đại biểu cho lợi ích, quyền lực và ý chí của nhân dân lao động.",
             color: "from-emerald-500 to-green-500",
             image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=400&q=80"
           },
           { 
             icon: GitBranch, 
             title: "Văn hóa", 
-            desc:  "Phát triển cao, kế thừa tinh hoa dân tộc & nhân loại.",
+            desc:  "Chủ nghĩa xã hội có nền văn hóa phát triển cao, kế thừa và phát huy những giá trị của văn hóa dân tộc và tinh hoa văn hóa nhân loại.",
             color: "from-amber-500 to-orange-500",
             image: "https://images.unsplash.com/photo-1508997449629-303059a039c0?w=400&q=80"
           },
           { 
             icon: Globe, 
             title: "Dân tộc & Quốc tế", 
-            desc: "Bình đẳng, đoàn kết giữa các dân tộc, hữu nghị quốc tế.",
+            desc: "Chủ nghĩa xã hội bảo đảm bình đẳng, đoàn kết giữa các dân tộc và có quan hệ hữu nghị, hợp tác với nhân dân các nước trên thế giới.",
             color: "from-cyan-500 to-blue-500",
             image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=400&q=80"
           },

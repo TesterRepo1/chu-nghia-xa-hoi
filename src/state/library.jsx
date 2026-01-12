@@ -57,10 +57,10 @@ export const BOOK_LIBRARY = [
  {
     title: "Notebook linh hoạt",
     pages: buildNotebookPagesFlexible({
-      coverFront: "page-01-front",
+      coverFront: "page-1-front",
       coverFrontBack: "page-1", // mặt sau của bìa trước
-      coverBackFront: "page-18", // mặt trước của bìa sau
-      coverBack: "page-01-back",
+      coverBackFront: "page-28", // mặt trước của bìa sau
+      coverBack: "page-1-back",
       ruledTexture: "",
       images: [
         "page-2", "page-3",
@@ -71,15 +71,20 @@ export const BOOK_LIBRARY = [
         "page-12", "page-13",
         "page-14", "page-15",
         "page-16", "page-17",
+        "page-18", "page-19",
+        "page-20", "page-21",
+        "page-22", "page-23",
+        "page-24", "page-25",
+        "page-26", "page-27",
       ],
     }),
     bookmark: { front: "bookmark-1-front", back: "bookmark-1-back" },
-    story: {
-      title: "Hành Trình Giành Lại Độc Lập và Khẳng Định Giá Trị Tự Do",
-      paragraphs: [
-        "Hai bìa sách cùng khắc họa hành trình đấu tranh của dân tộc Việt Nam từ những ngày đầu vận động cách mạng đến khi giành được độc lập và xây dựng một kỷ nguyên tự do mới; bìa trước mô tả các mốc lịch sử dẫn đến Cách mạng Tháng Tám và ngày độc lập, trong khi bìa sau khẳng định ý nghĩa thiêng liêng của tự do – độc lập và trách nhiệm của các thế hệ tiếp bước bảo vệ thành quả ấy.",
-      ],
-    },
+   story: {
+  title: "Chủ Nghĩa Xã Hội: Từ Lý Luận Tiên Phong Đến Tương Lai Thịnh Vượng",
+  paragraphs: [
+    "Hai mặt bìa sổ tay khái quát trọn vẹn tiến trình lịch sử và tư tưởng cốt lõi của con đường đi lên Chủ nghĩa xã hội. Bìa trước phác họa 'Thời kỳ quá độ' như một hành trình phát triển không ngừng: từ nền tảng lý luận của các vị lãnh tụ và sức mạnh giai cấp vô sản, vươn mình qua lao động sản xuất để chạm tới kỷ nguyên văn minh, hiện đại. Bìa sau, với lời dạy của V.I. Lênin, đóng vai trò như kim chỉ nam nhắc nhở: thành quả rực rỡ ấy không đến tức thì, mà là kết tinh của sự tổ chức chặt chẽ, kỷ luật nghiêm minh và ý chí đấu tranh bền bỉ của toàn thể quần chúng lao động."
+  ]
+}
   },
   // {
   //   id: "book-02",

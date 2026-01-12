@@ -70,7 +70,7 @@ export const TransitionViewsSection = () => (
             <div className="p-6">
               <Quote className="w-10 h-10 text-red-200 mb-4" />
               <p className="text-gray-700 italic text-lg leading-relaxed">
-                "Giữa xã hội TBCN và xã hội CSCN là một thời kỳ <strong className="text-red-600">cải biến cách mạng</strong>...  Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị, với nhà nước mang hình thức <strong className="text-red-600">chuyên chính vô sản</strong>."
+                "Giữa xã hội TBCN và xã hội CSCN là một thời kỳ <strong className="text-red-600">cải biến cách mạng</strong> từ xã hội nọ sang xã hội kia. Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị, và nhà nước của thời kỳ ấy không thể là cái gì khác hơn là nền <strong className="text-red-600">chuyên chính cách mạng</strong> của giai cấp vô sản."
               </p>
             </div>
           </div>
