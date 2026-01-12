@@ -1,25 +1,27 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 
 // Logo và video
-import ThreeJSLogo from "../../../public/logos/threejs.png";
-import ChatGPTLogo from "../../../public/logos/chatgpt.png";
-import BlenderLogo from "../../../public/logos/blender.png";
-import SketchfabLogo from "../../../public/logos/sketchfab.png";
-import ReactLogo from "../../../public/logos/reactjs.png";
+// import ThreeJSLogo from "../../../public/logos/threejs.png";
+// import ChatGPTLogo from "../../../public/logos/chatgpt.png";
+// import BlenderLogo from "../../../public/logos/blender.png";
+// import SketchfabLogo from "../../../public/logos/sketchfab.png";
+// import ReactLogo from "../../../public/logos/reactjs.png";
 
-import ThreeJSVideo from "../../../public/videos/Threejs.mp4";
-import ChatGPTVideo from "../../../public/videos/Chatgpt.mp4";
-import BlenderVideo from "../../../public/videos/Blender.mp4";
-import SketchfabVideo from "../../../public/videos/Sketchfab.mp4";
-import ReactVideo from "../../../public/videos/Reactjs.mp4";
+// import ThreeJSVideo from "../../../public/videos/Threejs.mp4";
+// import ChatGPTVideo from "../../../public/videos/Chatgpt.mp4";
+// import BlenderVideo from "../../../public/videos/Blender.mp4";
+// import SketchfabVideo from "../../../public/videos/Sketchfab.mp4";
+// import ReactVideo from "../../../public/videos/Reactjs.mp4";
 
-const technologies = [
-  { name: "Three.js", logo: ThreeJSLogo, video: ThreeJSVideo },
-  { name: "ChatGPT", logo: ChatGPTLogo, video: ChatGPTVideo },
-  { name: "Blender", logo: BlenderLogo, video: BlenderVideo },
-  { name: "Sketchfab", logo: SketchfabLogo, video: SketchfabVideo },
-  { name: "ReactJS", logo: ReactLogo, video: ReactVideo },
-];
+// const technologies = [
+//   { name: "Three.js", logo: ThreeJSLogo, video: ThreeJSVideo },
+//   { name: "ChatGPT", logo: ChatGPTLogo, video: ChatGPTVideo },
+//   { name: "Blender", logo: BlenderLogo, video: BlenderVideo },
+//   { name: "Sketchfab", logo: SketchfabLogo, video: SketchfabVideo },
+//   { name: "ReactJS", logo: ReactLogo, video: ReactVideo },
+// ];
+
+import { technologies } from "./TechnologyData";
 
 export default function TechnologyBanner() {
   const [current, setCurrent] = useState(0);
