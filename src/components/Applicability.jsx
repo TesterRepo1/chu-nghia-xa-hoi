@@ -387,29 +387,7 @@ const Applicability = () => {
         </motion. div>
 
         {/* Quote */}
-        <motion.div 
-          className="mt-20 relative"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-yellow-600/10 via-transparent to-red-600/10 rounded-3xl blur-3xl"></div>
-          <div className="relative bg-red-800/30 border-2 border-yellow-500/30 rounded-3xl p-8 md:p-12 text-center">
-            <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-yellow-900/30">
-              <svg className="w-8 h-8 text-red-900" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432. 917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-              </svg>
-            </div>
-            
-            <blockquote className="text-xl md:text-2xl text-white italic leading-relaxed max-w-3xl mx-auto mb-6">
-              "Đảng ta là một Đảng cầm quyền.  Mỗi đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng."
-            </blockquote>
-            
-            <cite className="text-yellow-400 font-semibold not-italic">
-              — Trích Di chúc của Chủ tịch Hồ Chí Minh
-            </cite>
-          </div>
-        </motion.div>
+       
       </div>
     </section>
   );

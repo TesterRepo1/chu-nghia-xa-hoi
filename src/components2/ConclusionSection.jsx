@@ -115,14 +115,14 @@ export const ThankYouSection = () => (
         </div>
         
         <h2 className="text-4xl md:text-6xl font-bold text-white font-serif mb-6">
-          Cảm ơn Thầy/Cô và các bạn <br/>
+          Cảm ơn Thầy và các bạn <br/>
           <span className="text-yellow-400">đã lắng nghe! </span>
         </h2>
         
         <div className="w-32 h-1 bg-yellow-500 mx-auto rounded-full mb-8" />
         
         <p className="text-white/80 text-xl">
-          Rất mong nhận được ý kiến đóng góp từ Thầy/Cô và các bạn. 
+          Rất mong nhận được ý kiến đóng góp từ Thầy và các bạn. 
         </p>
 
         {/* Team info */}

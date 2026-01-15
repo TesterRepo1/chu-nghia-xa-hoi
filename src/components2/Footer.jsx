@@ -42,13 +42,13 @@ export const Footer = () => {
               thông qua công nghệ 3D hiện đại, giúp việc học tập trở nên sinh động và hấp dẫn hơn.
             </p>
 
-            {/* Quote */}
+            {/* Quote
             <div className="p-4 bg-white/5 rounded-xl border border-yellow-500/20">
               <p className="text-yellow-100 italic text-sm">
                 "Việc gì lợi cho dân ta phải hết sức làm. Việc gì hại đến dân ta phải hết sức tránh."
               </p>
               <p className="text-yellow-400 text-xs mt-2">— Hồ Chí Minh</p>
-            </div>
+            </div> */}
 
             {/* Social links */}
             <div className="mt-6 flex items-center gap-4">

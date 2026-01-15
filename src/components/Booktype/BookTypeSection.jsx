@@ -63,26 +63,26 @@ const BookTypeSection = forwardRef(function BookTypeSection(
     models = [
       {
         url: "models/Notebookhcm01.glb",
-        name: "Sổ tay Đạo đức Cách mạng",
-        description: "Ghi chép về phẩm chất cần, kiệm, liêm, chính",
+        // name: "Sổ tay Đạo đức Cách mạng",
+        // description: "Ghi chép về phẩm chất cần, kiệm, liêm, chính",
         scale: 5,
       },
       {
         url: "models/Notebookhcm02.glb",
-        name: "Sổ tay Học tập",
-        description: "Tổng hợp tư tưởng về giáo dục và rèn luyện",
+        // name: "Sổ tay Học tập",
+        // description: "Tổng hợp tư tưởng về giáo dục và rèn luyện",
         scale: 0.006,
       },
       {
         url: "models/Notebookhcm03.glb",
-        name: "Sổ tay Đoàn kết",
-        description: "Tinh thần đại đoàn kết dân tộc",
+        // name: "Sổ tay Đoàn kết",
+        // description: "Tinh thần đại đoàn kết dân tộc",
         scale: 0.0055,
       },
       {
         url: "models/Notebookhcm04.glb",
-        name: "Sổ tay Di chúc",
-        description: "Những lời dặn dò của Bác với thế hệ mai sau",
+        // name: "Sổ tay Di chúc",
+        // description: "Những lời dặn dò của Bác với thế hệ mai sau",
         scale: 8,
       },
     ],
@@ -116,10 +116,10 @@ const BookTypeSection = forwardRef(function BookTypeSection(
 
   // Quotes của Bác Hồ cho mỗi sản phẩm
   const quotes = [
-    "Cần, kiệm, liêm, chính, chí công vô tư",
-    "Học để làm việc, làm người, làm cán bộ",
-    "Đoàn kết, đoàn kết, đại đoàn kết",
-    "Việc gì lợi cho dân phải hết sức làm",
+    // "Cần, kiệm, liêm, chính, chí công vô tư",
+    // "Học để làm việc, làm người, làm cán bộ",
+    // "Đoàn kết, đoàn kết, đại đoàn kết",
+    // "Việc gì lợi cho dân phải hết sức làm",
   ];
 
   return (
@@ -168,63 +168,7 @@ const BookTypeSection = forwardRef(function BookTypeSection(
         </motionDOM.div>
       </div>
 
-      {/* Product info card */}
-      <motionDOM.div
-        key={index}
-        initial={{ opacity: 0, x: -20 }}
-        animate={{ opacity: 1, x: 0 }}
-        className="absolute left-6 top-1/2 -translate-y-1/2 z-20 max-w-xs"
-      >
-        <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl overflow-hidden border-2 border-yellow-400">
-          {/* Card header */}
-          <div className="bg-gradient-to-r from-red-600 to-red-700 px-5 py-3">
-            <div className="flex items-center gap-2">
-              <StarIcon className="w-5 h-5 text-yellow-400" />
-              <span className="text-yellow-300 text-sm font-medium">
-                Sản phẩm {index + 1}/{count}
-              </span>
-            </div>
-          </div>
-
-          {/* Card body */}
-          <div className="p-5">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">
-              {models[index]?.name || "Sản phẩm"}
-            </h3>
-            {models[index]?.description && (
-              <p className="text-gray-600 text-sm mb-4">
-                {models[index].description}
-              </p>
-            )}
-
-            {/* Quote */}
-            <div className="bg-gradient-to-r from-amber-50 to-red-50 rounded-lg p-3 border-l-4 border-yellow-500">
-              <p className="text-gray-700 text-sm italic">
-                "{quotes[index] || quotes[0]}"
-              </p>
-              <p className="text-red-600 text-xs font-medium mt-1">
-                — Hồ Chí Minh
-              </p>
-            </div>
-          </div>
-
-          {/* Dots indicator */}
-          <div className="px-5 pb-4 flex justify-center gap-2">
-            {models.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setIndex(i)}
-                className={`h-2 rounded-full transition-all ${
-                  i === index
-                    ? "w-6 bg-red-600"
-                    : "w-2 bg-gray-300 hover:bg-red-400"
-                }`}
-              />
-            ))}
-          </div>
-        </div>
-      </motionDOM.div>
-
+     
       {/* Navigation buttons */}
       <ArrowButton onClick={prev} direction="left" />
       <ArrowButton onClick={next} direction="right" />
